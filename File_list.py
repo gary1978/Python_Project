@@ -1,4 +1,4 @@
-import os
+﻿import os
 #import os.path
 rootdir="E:\BaiduYunDownload"
 #dll
@@ -17,3 +17,5 @@ for parent,dirnames,filenames in os.walk(rootdir):
     for filename in filenames:
         if filename.find('.rar')!=-1:
             print(os.path.join(parent,filename))
+
+11111
